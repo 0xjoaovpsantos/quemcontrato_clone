@@ -7,15 +7,9 @@ Projeto desenvolvido como forma de estudo para aplicar a arquitetura MODULAR, o 
 ## Screenshots
 
 <p align="center">
-<<<<<<< HEAD
   <img src="screenshots/splash_screen.png" width="200">
   <img src="screenshots/home_page.png" width="200">
-  <img src="screenshots/login_page.png" width="200">
-=======
-  <img src="screenshots/splash_screen.png">
-  <img src="screenshots/home_module.png">
-  <img src="screenshots/login_module.png">
->>>>>>> parent of aff5b0c... fix: update readme imgs
+  <img src="screenshots/login_page.png" width="200"> 
 </p>
 
 ## Flutter
