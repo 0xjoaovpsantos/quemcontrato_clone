@@ -1,16 +1,39 @@
-# quemcontrato_clone
+# Quem Contrato - Clone (Em Desenvolvimento)
 
-A new Flutter project.
+Projeto desenvolvido como forma de estudo para aplicar a arquitetura MODULAR, o gerenciamento de estado MobX, o uso da CLI do Slidy e também a boa prática de usar conventional commits
 
-## Getting Started
+- [Projeto orignal](http://quemcontrato.com.br/)
 
-This project is a starting point for a Flutter application.
+## Screenshots
 
-A few resources to get you started if this is your first Flutter project:
+<p align="center">
+  <img src="screenshots/splash_screen.png">
+  <img src="screenshots/home_module.png">
+  <img src="screenshots/login_module.png">
+</p>
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Flutter
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [Flutter.dev](https://flutter.dev/)
+
+## Plugins used
+
+- [flutter_launcher_icons](https://pub.dev/packages/flutter_launcher_icons): ^0.7.4
+- [auto_size_text](https://pub.dev/packages/auto_size_text): ^2.1.0
+- [mobx](https://pub.dev/packages/mobx): ^0.4.0+1
+- [flutter_mobx](https://pub.dev/packages/flutter_mobx): ^0.3.6
+
+## Additional
+
+To contribute, consider these rules:
+
+- https://semver.org/
+- https://www.conventionalcommits.org/en/v1.0.0/
+
+## Version
+
+- (Ainda em desenvolvimento)
+
+## License
+
+Released under the [MIT License](http://opensource.org/licenses/MIT).
