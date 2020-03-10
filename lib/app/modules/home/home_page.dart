@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_modular/flutter_modular.dart';
 import 'package:quemcontrato_clone/app/utils/constants.dart';
 
 class HomePage extends StatefulWidget {
@@ -68,32 +69,42 @@ class _HomePageState extends State<HomePage> {
                     ),
                   ),
                 ),
-                Container(
-                  margin: EdgeInsets.only(top: 10),
-                  decoration: BoxDecoration(
-                    color: colorButtonHome,
-                    borderRadius: BorderRadius.only(
-                        bottomLeft: Radius.circular(8.0),
-                        bottomRight: Radius.circular(8.0)),
-                  ),
-                  child: Padding(
-                    padding: EdgeInsets.all(26),
-                    child: Text(
-                      "cadastrar meus serviços",
-                      style: TextStyle(
-                          color: Colors.white,
-                          fontWeight: FontWeight.bold,
-                          fontSize: 20),
+                GestureDetector(
+                  onTap: () {
+                    Modular.to.pushNamed("/Login");
+                  },
+                  child: Container(
+                    margin: EdgeInsets.only(top: 10),
+                    decoration: BoxDecoration(
+                      color: colorButtonHome,
+                      borderRadius: BorderRadius.only(
+                          bottomLeft: Radius.circular(8.0),
+                          bottomRight: Radius.circular(8.0)),
+                    ),
+                    child: Padding(
+                      padding: EdgeInsets.all(26),
+                      child: Text(
+                        "cadastrar meus serviços",
+                        style: TextStyle(
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 20),
+                      ),
                     ),
                   ),
                 ),
-                Container(
-                  margin: EdgeInsets.only(top: 40.0, bottom: 40.0),
-                  child: Text("já sou cadastrado",
-                      style: TextStyle(
-                          color: colorTextOrange,
-                          fontWeight: FontWeight.bold,
-                          fontSize: 20)),
+                GestureDetector(
+                  onTap: () {
+                    Modular.to.pushNamed("/Login");
+                  },
+                  child: Container(
+                    margin: EdgeInsets.only(top: 40.0, bottom: 40.0),
+                    child: Text("já sou cadastrado",
+                        style: TextStyle(
+                            color: colorTextOrange,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 20)),
+                  ),
                 )
               ]),
             )

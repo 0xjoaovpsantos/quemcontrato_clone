@@ -7,6 +7,7 @@ class AppWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       color: colorAppBar,
+      debugShowCheckedModeBanner: false,
       navigatorKey: Modular.navigatorKey,
       title: 'Quem Contrato',
       theme: ThemeData(
