@@ -8,8 +8,8 @@ Projeto desenvolvido como forma de estudo para aplicar a arquitetura MODULAR, o 
 
 <p align="center">
   <img src="screenshots/splash_screen.png">
-  <img src="screenshots/home_module.png">
-  <img src="screenshots/login_module.png">
+  <img src="screenshots/home_page.png">
+  <img src="screenshots/login_page.png">
 </p>
 
 ## Flutter
